@@ -41,7 +41,7 @@ html{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: #499973;
 }
 .navbar .menu li{
     list-style: none;
@@ -128,7 +128,7 @@ html{
 
 /*  todos os codigos similares  */
 section{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 section .title{
     font-family: 'Ubuntu', sans-serif;
@@ -192,6 +192,23 @@ section .title::after{
 
 footer {
     background-color: #001c30;
+}
+
+/* -------- MarketPlace ----------- */
+.home1{
+    display: flex;
+    background: url(./image/linhaazul.png) no-repeat;
+    color: white; /* Agro */
+}
+
+/*  Marketp */
+.services .title::before,
+.marketp .title::before{
+    background: #001c30; /*linha*/
+}
+.services .title::after,
+.marketp .title::after{
+    content: "$$$$$";
 }
 
 /* ----------------------------------------------------- */
