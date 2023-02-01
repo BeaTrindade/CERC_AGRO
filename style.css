@@ -119,6 +119,13 @@ html{
     
 }
 
+/*  ativos  */
+
+.cpr{
+    color: #499973;
+}
+
+
 /*  todos os codigos similares  */
 section{
     padding: 100px 0;
@@ -160,23 +167,27 @@ section .title::after{
 }
 
 /*  Meus Projeto */
-.services, .teams{
+.services, .ativs{
     background: #001c30; /*backgroud*/
     color: #fff;
 }
 .services .title::before,
-.teams .title::before{
-    background: #fff;
+.ativs .title::before{
+    background: #fff; /*linha*/
 }
 .services .title::after,
-.teams .title::after{
+.ativs .title::after{
     background: #001c30;  /*backgroud title*/
-    content: "Escreva algo 2";
+    content: "Investimentos";
 }
 
 /*  Vantagens  */
 .vantag .title::after{
-    content: "Escreva algo 3";
+    content: "Democratização ";
+}
+
+.transpa {
+    background-color: transparent !important;
 }
 
 footer {
