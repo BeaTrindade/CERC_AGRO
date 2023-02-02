@@ -83,7 +83,7 @@ html{
 }
 
 .home-content .text-2 span{
-    color: #499973; ;
+    color: #499973;
     font-weight: 700;
 }
 
@@ -209,6 +209,21 @@ footer {
 .services .title::after,
 .marketp .title::after{
     content: "$$$$$";
+}
+
+.btn-marke{
+    background-color: #499973;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.btn-cor{
+    background-color: #499973;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
 }
 
 /* ----------------------------------------------------- */
