@@ -119,6 +119,28 @@ html{
     
 }
 
+/*  sessão sobre  */
+.about .mission {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.about img {
+    width: 600px;
+    height: 450px;
+    padding-left: 15px;
+    border-radius: 30px;
+}
+
+.about .tentativa {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: stretch;
+    }
+
+
 /*  ativos  */
 
 .cpr{
@@ -163,7 +185,7 @@ section .title::after{
 
 /*  sessão sobre  */
 .about .title::after{
-    content: "Escreva algo 1";
+    content: "Sobre";
 }
 
 /*  Meus Projeto */
@@ -224,6 +246,10 @@ footer {
     font-size: 18px;
     font-weight: 500;
     margin-top: 10px;
+}
+
+.page-link{
+    color:  #001c30;
 }
 
 /* ----------------------------------------------------- */
